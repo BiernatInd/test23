@@ -1,0 +1,35 @@
+{
+    " *uuid ":"string",
+
+    "visit":{
+        " *DateStart":"timestamp",
+        " *Dateend":"timestamp"    
+            
+    },
+    "facility":{
+        " rawAdress":"varchar",
+        " latitude":"50.123213",
+        " longitude":"50.123213"
+
+    },
+    "pacjent":{
+        " *firstName":"Jan",
+        " *lastName":"Kowalski",
+        " *phoneNumber":"+48 999 999 999",
+
+        "rawAdress":"varchar",        
+        "latitude":"50.123213",
+        "longitude":"50.123213",
+
+        "additionalInfo":["na wozko","niewidomy"],
+        "comment":"potrzebuje zeby byl 10min wczesniej"
+
+    },
+    "user":{
+        "*firstName":"Jan",
+        "*lastName":"Kowalski",
+        "*phoneNumber":"+48 999 999 999"
+        
+    }
+}
+
